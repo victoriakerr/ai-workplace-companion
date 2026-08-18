@@ -90,8 +90,8 @@ export async function planTasks(raw: string): Promise<PlannedTask[]> {
 
   return list.map((task, i) => ({
     task,
-    priority: priorities[i % priorities.length],
-    estimate: estimates[i % estimates.length],
-    slot: slots[i % slots.length],
+    priority: priorities[i % priorities.length]!,
+    estimate: estimates[i % estimates.length]!,
+    slot: slots[i % slots.length]!,
   }));
 }
