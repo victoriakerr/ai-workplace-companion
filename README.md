@@ -22,7 +22,7 @@ We used the RTCF framework: Role, Task, Context, Format.
  
  
 ## Tech Stack
-Lovable AI, React, Tailwind CSS, Mock AI responses
+Lovable AI, React, Tailwind CSS
  
 ## Responsible AI
 - Includes banner: "AI-generated content may require human review"
